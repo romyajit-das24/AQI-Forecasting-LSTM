@@ -1,0 +1,41 @@
+
+# Air Quality Forecasting Using LSTM
+
+## Project Overview
+This project explores time-series forecasting using a Long Short-Term Memory (LSTM) neural network and historical air-quality sensor data.
+
+## Objectives
+- Preprocess air-quality data.
+- Train an LSTM forecasting model.
+- Forecast sensor readings, temperature, and humidity.
+- Evaluate model performance.
+
+## Dataset
+The project uses the AirQualityUCI Excel dataset.
+
+## Technologies
+- Python
+- Jupyter Notebook
+- Pandas and NumPy
+- Matplotlib
+- Scikit-learn
+- TensorFlow / Keras
+
+## Project Files
+- `AQI_Forecasting.ipynb`: Main notebook
+- `AirQualityUCI.xlsx`: Dataset
+- `requirements.txt`: Python dependencies
+- `.gitignore`: Files excluded from version control
+
+## How to Run
+1. Clone or download this repository.
+2. Install dependencies using `pip install -r requirements.txt`.
+3. Open `AQI_Forecasting.ipynb` in Jupyter Notebook.
+4. Ensure the Excel dataset is in the expected location.
+5. Run the notebook cells in order.
+
+## Evaluation
+Model metrics and plots should be added after running the notebook.
+
+## Limitations
+A sensor-based prediction is not automatically an official Air Quality Index (AQI). Official AQI estimation requires suitable pollutant measurements and a validated calculation method.
